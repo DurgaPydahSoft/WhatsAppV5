@@ -1,0 +1,21 @@
+{
+  "posts": [
+    {
+      "MessageRec": "Bad boy",
+      "timestamp": 1755607110
+    },
+    {
+      "MessageRec": "help",
+      "timestamp": 1755607128
+    },
+    {
+      "MessageRec": "Hi",
+      "timestamp": 1755607237
+    },
+    {
+      "MessageRec": "Nice",
+      "timestamp": 1755607247
+    }
+  ],
+  "oldChats": []
+}

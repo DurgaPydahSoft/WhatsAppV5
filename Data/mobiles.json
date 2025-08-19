@@ -1,0 +1,166 @@
+{
+    "919392604899@c.us": "Hey Come On Man",
+    "919951354444@c.us": "Hey Ravi Sir..How was your day?",
+    "919848163021@c.us": {
+        "responses": {
+            "ping": {
+                "type": "text",
+                "content": "HI ",
+                "description": "Response to ping message"
+            },
+            "hi": {
+                "type": "text",
+                "content": "HI RAA",
+                "description": "Response to hi message"
+            },
+            "Button": {
+                "type": "text",
+                "content": "Send Button",
+                "description": "Response to Button message"
+            },
+            "hello": {
+                "type": "text",
+                "content": "Hello there! 👋 How can I assist you today?",
+                "description": "Friendly hello response"
+            },
+            "goodbye": {
+                "type": "text",
+                "content": "Goodbye! 👋 Have a great day ahead!",
+                "description": "Farewell message"
+            },
+            "thanks": {
+                "type": "text",
+                "content": "You're welcome! 😊 Happy to help!",
+                "description": "Response to thank you messages"
+            },
+            "status": {
+                "type": "text",
+                "content": "🟢 Bot is online and running smoothly! All systems operational.",
+                "description": "Bot status check response"
+            },
+            "info": {
+                "type": "text",
+                "content": "🤖 I'm a WhatsApp bot powered by KeshavSoft. I can help with various tasks and respond to your messages!",
+                "description": "Bot information response"
+            }
+        },
+        "media": {
+            "SendMedia": {
+                "type": "file",
+                "path": "./WA/path/to/Keshav.png",
+                "description": "Local media file to send"
+            },
+            "SendFromUrl": {
+                "type": "url",
+                "url": "https://washtex5.keshavsoft.com/assets/image%20(1)-Bo3S5UVn.png",
+                "description": "Media URL to fetch and send"
+            },
+            "logo": {
+                "type": "url",
+                "url": "https://via.placeholder.com/300x200/4CAF50/FFFFFF?text=KeshavSoft+Logo",
+                "description": "Company logo placeholder"
+            },
+            "welcomeImage": {
+                "type": "url",
+                "url": "https://via.placeholder.com/400x300/2196F3/FFFFFF?text=Welcome+to+WhatsApp+Bot",
+                "description": "Welcome image for new users"
+            }
+        },
+        "customMessages": {
+            "welcome": {
+                "type": "text",
+                "content": "Welcome to our WhatsApp service! How can I help you today?",
+                "description": "Welcome message for new users"
+            },
+            "help": {
+                "type": "text",
+                "content": "Available commands:\n\n📱 Basic: ping, hi, hello, goodbye, thanks\n🔘 Actions: Button, SendMedia, SendFromUrl\nℹ️ Info: status, info, help, time, date\n🎭 Fun: joke, quote, weather\n\nType any command to get started!",
+                "description": "Help message showing available commands"
+            },
+            "error": {
+                "type": "text",
+                "content": "Sorry, I didn't understand that command. Type 'help' for available options.",
+                "description": "Error message for unknown commands"
+            },
+            "time": {
+                "type": "text",
+                "content": "🕐 Current time: {TIME_PLACEHOLDER}",
+                "description": "Current time response (will be replaced dynamically)"
+            },
+            "date": {
+                "type": "text",
+                "content": "📅 Today's date: {DATE_PLACEHOLDER}",
+                "description": "Current date response (will be replaced dynamically)"
+            },
+            "joke": {
+                "type": "text",
+                "content": "😄 Here's a joke for you:\n\nWhy don't scientists trust atoms?\nBecause they make up everything! 🤣",
+                "description": "Random joke response"
+            },
+            "quote": {
+                "type": "text",
+                "content": "💭 Today's quote:\n\n\"The only way to do great work is to love what you do.\" - Steve Jobs",
+                "description": "Inspirational quote response"
+            },
+            "weather": {
+                "type": "text",
+                "content": "🌤️ Weather information:\n\nLocation: {LOCATION_PLACEHOLDER}\nTemperature: {TEMP_PLACEHOLDER}\nCondition: {CONDITION_PLACEHOLDER}",
+                "description": "Weather information template"
+            },
+            "contact": {
+                "type": "text",
+                "content": "📞 Contact Information:\n\n🏢 Company: KeshavSoft\n📧 Email: info@keshavsoft.com\n🌐 Website: www.keshavsoft.com\n📱 WhatsApp: +91-XXXXXXXXXX",
+                "description": "Company contact information"
+            },
+            "services": {
+                "type": "text",
+                "content": "🛠️ Our Services:\n\n• Web Development\n• Mobile Apps\n• WhatsApp Integration\n• API Development\n• Database Solutions\n• Cloud Services\n\nContact us for more details!",
+                "description": "Company services information"
+            },
+            "support": {
+                "type": "text",
+                "content": "🆘 Need help?\n\nOur support team is available:\n⏰ Mon-Fri: 9 AM - 6 PM\n📧 support@keshavsoft.com\n💬 Type 'contact' for more info",
+                "description": "Support information"
+            },
+            "menu": {
+                "type": "text",
+                "content": "🍽️ Main Menu:\n\n1️⃣ Basic Commands (ping, hi, hello)\n2️⃣ Media Commands (SendMedia, SendFromUrl)\n3️⃣ Information (status, info, help)\n4️⃣ Fun Commands (joke, quote)\n5️⃣ Business (contact, services, support)\n\nType the number or command name!",
+                "description": "Main menu with categorized options"
+            }
+        },
+        "interactive": {
+            "survey": {
+                "type": "text",
+                "content": "📊 Quick Survey:\n\nHow would you rate our service?\n1️⃣ Excellent\n2️⃣ Good\n3️⃣ Average\n4️⃣ Poor\n\nReply with the number!",
+                "description": "Interactive survey prompt"
+            },
+            "feedback": {
+                "type": "text",
+                "content": "💬 We'd love your feedback!\n\nPlease share your thoughts about our service. Your input helps us improve!",
+                "description": "Feedback request message"
+            },
+            "newsletter": {
+                "type": "text",
+                "content": "📰 Subscribe to our newsletter!\n\nReply with 'YES' to receive updates about:\n• New features\n• Company news\n• Tech tips\n• Special offers",
+                "description": "Newsletter subscription prompt"
+            }
+        },
+        "templates": {
+            "orderConfirmation": {
+                "type": "text",
+                "content": "✅ Order Confirmed!\n\nOrder ID: {ORDER_ID}\nProduct: {PRODUCT_NAME}\nAmount: ₹{AMOUNT}\nStatus: Processing\n\nThank you for choosing KeshavSoft!",
+                "description": "Order confirmation template"
+            },
+            "appointmentReminder": {
+                "type": "text",
+                "content": "⏰ Appointment Reminder\n\nDate: {DATE}\nTime: {TIME}\nLocation: {LOCATION}\n\nPlease confirm your attendance by replying 'YES' or 'NO'",
+                "description": "Appointment reminder template"
+            },
+            "welcomeNewUser": {
+                "type": "text",
+                "content": "🎉 Welcome to KeshavSoft Family!\n\nHi {USER_NAME},\n\nWe're excited to have you on board! Here's what you can do:\n\n• Type 'help' for commands\n• Type 'menu' for options\n• Type 'contact' for support\n\nEnjoy your experience! 🚀",
+                "description": "New user welcome template"
+            }
+        }
+    }
+}

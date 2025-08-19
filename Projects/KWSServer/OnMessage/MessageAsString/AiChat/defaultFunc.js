@@ -13,7 +13,7 @@ const StartFunc = ({ inDataAsString, inSendFunc }) => {
         case "Ping":
         case " Ping":
         case " ping":
-            inSendFunc({ inMessage: "Pong" });
+            inSendFunc({ inMessage: "ping" });
 
             break;
         case "I am a Student":
