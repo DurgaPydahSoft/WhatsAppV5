@@ -50,8 +50,6 @@ const StartFunc = async msg => {
                 
             } else {
                 
-                // UserData is neither object nor string - send default message
-                console.log("User data format not recognized, sending default message");
                 await msg.reply("Welcome! You are a registered user.");
             }
             
